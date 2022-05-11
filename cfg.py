@@ -23,8 +23,8 @@ Cfg.cfgfile = os.path.join(_BASE_DIR, 'cfg', 'yolov4-custom.cfg')
 
 Cfg.batch = 1
 Cfg.subdivisions = 1
-Cfg.width = 1024
-Cfg.height = 1024
+Cfg.width = 608
+Cfg.height = 608
 Cfg.channels = 3
 Cfg.momentum = 0.949
 Cfg.decay = 0.0005
@@ -53,7 +53,7 @@ Cfg.flip = 1
 Cfg.blur = 0
 Cfg.gaussian = 0
 Cfg.boxes = 60  # box num
-Cfg.TRAIN_EPOCHS = 20
+Cfg.TRAIN_EPOCHS = 200
 # print(_BASE_DIR)
 Cfg.train_label = os.path.join(_BASE_DIR, 'custom_data', 'train.txt')
 Cfg.val_label = os.path.join(_BASE_DIR, 'custom_data' ,'val.txt')

@@ -436,7 +436,6 @@ def get_image_id(filename:str) -> int:
     parts2 = parts[-1].split('.')
     part0 = parts2[0]
 
-
     # id = int(parts[-1][0:-4])
     id = sum([ord(x) for x in part0])
     # print(id)

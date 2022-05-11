@@ -1,0 +1,596 @@
+<annotation>
+  <folder>OD</folder>
+  <filename>im_19<item>im_19</item>
+  </filename>
+  <project />
+  <directory />
+  <tags />
+  <size>
+    <width>608</width>
+    <height>608</height>
+    <depth>3</depth>
+  </size>
+  <scanid>1600553</scanid>
+  <planogram_title>06' SNACK NUTS 80' SWY</planogram_title>
+  <retailer>albt</retailer>
+  <object>
+  <name>All PRICE TAGS</name>
+  <difficult>0</difficult>
+  <bndbox>
+    <xmin>348</xmin>
+    <ymin>577</ymin>
+    <xmax>371</xmax>
+    <ymax>586</ymax>
+  </bndbox>
+</object>
+<object>
+  <name>All PRICE TAGS</name>
+  <difficult>0</difficult>
+  <bndbox>
+    <xmin>280</xmin>
+    <ymin>579</ymin>
+    <xmax>305</xmax>
+    <ymax>587</ymax>
+  </bndbox>
+</object>
+<object>
+  <name>All PRICE TAGS</name>
+  <difficult>0</difficult>
+  <bndbox>
+    <xmin>228</xmin>
+    <ymin>580</ymin>
+    <xmax>253</xmax>
+    <ymax>589</ymax>
+  </bndbox>
+</object>
+<object>
+  <name>All PRICE TAGS</name>
+  <difficult>0</difficult>
+  <bndbox>
+    <xmin>147</xmin>
+    <ymin>583</ymin>
+    <xmax>173</xmax>
+    <ymax>592</ymax>
+  </bndbox>
+</object>
+<object>
+  <name>All PRICE TAGS</name>
+  <difficult>0</difficult>
+  <bndbox>
+    <xmin>401</xmin>
+    <ymin>503</ymin>
+    <xmax>424</xmax>
+    <ymax>512</ymax>
+  </bndbox>
+</object>
+<object>
+  <name>All PRICE TAGS</name>
+  <difficult>0</difficult>
+  <bndbox>
+    <xmin>324</xmin>
+    <ymin>506</ymin>
+    <xmax>349</xmax>
+    <ymax>515</ymax>
+  </bndbox>
+</object>
+<object>
+  <name>All PRICE TAGS</name>
+  <difficult>0</difficult>
+  <bndbox>
+    <xmin>277</xmin>
+    <ymin>507</ymin>
+    <xmax>303</xmax>
+    <ymax>516</ymax>
+  </bndbox>
+</object>
+<object>
+  <name>All PRICE TAGS</name>
+  <difficult>0</difficult>
+  <bndbox>
+    <xmin>225</xmin>
+    <ymin>509</ymin>
+    <xmax>249</xmax>
+    <ymax>518</ymax>
+  </bndbox>
+</object>
+<object>
+  <name>All PRICE TAGS</name>
+  <difficult>0</difficult>
+  <bndbox>
+    <xmin>144</xmin>
+    <ymin>513</ymin>
+    <xmax>170</xmax>
+    <ymax>521</ymax>
+  </bndbox>
+</object>
+<object>
+  <name>All PRICE TAGS</name>
+  <difficult>0</difficult>
+  <bndbox>
+    <xmin>418</xmin>
+    <ymin>441</ymin>
+    <xmax>444</xmax>
+    <ymax>450</ymax>
+  </bndbox>
+</object>
+<object>
+  <name>All PRICE TAGS</name>
+  <difficult>0</difficult>
+  <bndbox>
+    <xmin>381</xmin>
+    <ymin>442</ymin>
+    <xmax>407</xmax>
+    <ymax>451</ymax>
+  </bndbox>
+</object>
+<object>
+  <name>All PRICE TAGS</name>
+  <difficult>0</difficult>
+  <bndbox>
+    <xmin>346</xmin>
+    <ymin>443</ymin>
+    <xmax>371</xmax>
+    <ymax>451</ymax>
+  </bndbox>
+</object>
+<object>
+  <name>All PRICE TAGS</name>
+  <difficult>0</difficult>
+  <bndbox>
+    <xmin>283</xmin>
+    <ymin>445</ymin>
+    <xmax>308</xmax>
+    <ymax>453</ymax>
+  </bndbox>
+</object>
+<object>
+  <name>All PRICE TAGS</name>
+  <difficult>0</difficult>
+  <bndbox>
+    <xmin>246</xmin>
+    <ymin>446</ymin>
+    <xmax>272</xmax>
+    <ymax>455</ymax>
+  </bndbox>
+</object>
+<object>
+  <name>All PRICE TAGS</name>
+  <difficult>0</difficult>
+  <bndbox>
+    <xmin>208</xmin>
+    <ymin>448</ymin>
+    <xmax>234</xmax>
+    <ymax>456</ymax>
+  </bndbox>
+</object>
+<object>
+  <name>All PRICE TAGS</name>
+  <difficult>0</difficult>
+  <bndbox>
+    <xmin>132</xmin>
+    <ymin>449</ymin>
+    <xmax>158</xmax>
+    <ymax>458</ymax>
+  </bndbox>
+</object>
+<object>
+  <name>All PRICE TAGS</name>
+  <difficult>0</difficult>
+  <bndbox>
+    <xmin>95</xmin>
+    <ymin>450</ymin>
+    <xmax>122</xmax>
+    <ymax>459</ymax>
+  </bndbox>
+</object>
+<object>
+  <name>All PRICE TAGS</name>
+  <difficult>0</difficult>
+  <bndbox>
+    <xmin>364</xmin>
+    <ymin>382</ymin>
+    <xmax>390</xmax>
+    <ymax>391</ymax>
+  </bndbox>
+</object>
+<object>
+  <name>All PRICE TAGS</name>
+  <difficult>0</difficult>
+  <bndbox>
+    <xmin>261</xmin>
+    <ymin>385</ymin>
+    <xmax>287</xmax>
+    <ymax>394</ymax>
+  </bndbox>
+</object>
+<object>
+  <name>All PRICE TAGS</name>
+  <difficult>0</difficult>
+  <bndbox>
+    <xmin>217</xmin>
+    <ymin>386</ymin>
+    <xmax>244</xmax>
+    <ymax>395</ymax>
+  </bndbox>
+</object>
+<object>
+  <name>All PRICE TAGS</name>
+  <difficult>0</difficult>
+  <bndbox>
+    <xmin>129</xmin>
+    <ymin>390</ymin>
+    <xmax>156</xmax>
+    <ymax>398</ymax>
+  </bndbox>
+</object>
+<object>
+  <name>All PRICE TAGS</name>
+  <difficult>0</difficult>
+  <bndbox>
+    <xmin>400</xmin>
+    <ymin>313</ymin>
+    <xmax>426</xmax>
+    <ymax>322</ymax>
+  </bndbox>
+</object>
+<object>
+  <name>All PRICE TAGS</name>
+  <difficult>0</difficult>
+  <bndbox>
+    <xmin>345</xmin>
+    <ymin>314</ymin>
+    <xmax>371</xmax>
+    <ymax>323</ymax>
+  </bndbox>
+</object>
+<object>
+  <name>All PRICE TAGS</name>
+  <difficult>0</difficult>
+  <bndbox>
+    <xmin>303</xmin>
+    <ymin>315</ymin>
+    <xmax>329</xmax>
+    <ymax>323</ymax>
+  </bndbox>
+</object>
+<object>
+  <name>All PRICE TAGS</name>
+  <difficult>0</difficult>
+  <bndbox>
+    <xmin>252</xmin>
+    <ymin>316</ymin>
+    <xmax>279</xmax>
+    <ymax>325</ymax>
+  </bndbox>
+</object>
+<object>
+  <name>All PRICE TAGS</name>
+  <difficult>0</difficult>
+  <bndbox>
+    <xmin>208</xmin>
+    <ymin>317</ymin>
+    <xmax>236</xmax>
+    <ymax>326</ymax>
+  </bndbox>
+</object>
+<object>
+  <name>All PRICE TAGS</name>
+  <difficult>0</difficult>
+  <bndbox>
+    <xmin>161</xmin>
+    <ymin>318</ymin>
+    <xmax>189</xmax>
+    <ymax>328</ymax>
+  </bndbox>
+</object>
+<object>
+  <name>All PRICE TAGS</name>
+  <difficult>0</difficult>
+  <bndbox>
+    <xmin>111</xmin>
+    <ymin>319</ymin>
+    <xmax>139</xmax>
+    <ymax>328</ymax>
+  </bndbox>
+</object>
+<object>
+  <name>All PRICE TAGS</name>
+  <difficult>0</difficult>
+  <bndbox>
+    <xmin>70</xmin>
+    <ymin>320</ymin>
+    <xmax>98</xmax>
+    <ymax>329</ymax>
+  </bndbox>
+</object>
+<object>
+  <name>All PRICE TAGS</name>
+  <difficult>0</difficult>
+  <bndbox>
+    <xmin>404</xmin>
+    <ymin>232</ymin>
+    <xmax>431</xmax>
+    <ymax>241</ymax>
+  </bndbox>
+</object>
+<object>
+  <name>All PRICE TAGS</name>
+  <difficult>0</difficult>
+  <bndbox>
+    <xmin>340</xmin>
+    <ymin>234</ymin>
+    <xmax>368</xmax>
+    <ymax>242</ymax>
+  </bndbox>
+</object>
+<object>
+  <name>All PRICE TAGS</name>
+  <difficult>0</difficult>
+  <bndbox>
+    <xmin>289</xmin>
+    <ymin>235</ymin>
+    <xmax>314</xmax>
+    <ymax>243</ymax>
+  </bndbox>
+</object>
+<object>
+  <name>All PRICE TAGS</name>
+  <difficult>0</difficult>
+  <bndbox>
+    <xmin>235</xmin>
+    <ymin>236</ymin>
+    <xmax>262</xmax>
+    <ymax>244</ymax>
+  </bndbox>
+</object>
+<object>
+  <name>All PRICE TAGS</name>
+  <difficult>0</difficult>
+  <bndbox>
+    <xmin>487</xmin>
+    <ymin>217</ymin>
+    <xmax>513</xmax>
+    <ymax>227</ymax>
+  </bndbox>
+</object>
+<object>
+  <name>All PRICE TAGS</name>
+  <difficult>0</difficult>
+  <bndbox>
+    <xmin>482</xmin>
+    <ymin>297</ymin>
+    <xmax>508</xmax>
+    <ymax>307</ymax>
+  </bndbox>
+</object>
+<object>
+  <name>All PRICE TAGS</name>
+  <difficult>0</difficult>
+  <bndbox>
+    <xmin>1</xmin>
+    <ymin>395</ymin>
+    <xmax>16</xmax>
+    <ymax>403</ymax>
+  </bndbox>
+</object>
+<object>
+  <name>All PRICE TAGS</name>
+  <difficult>0</difficult>
+  <bndbox>
+    <xmin>37</xmin>
+    <ymin>393</ymin>
+    <xmax>63</xmax>
+    <ymax>402</ymax>
+  </bndbox>
+</object>
+<object>
+  <name>All PRICE TAGS</name>
+  <difficult>0</difficult>
+  <bndbox>
+    <xmin>478</xmin>
+    <ymin>382</ymin>
+    <xmax>503</xmax>
+    <ymax>391</ymax>
+  </bndbox>
+</object>
+<object>
+  <name>All PRICE TAGS</name>
+  <difficult>0</difficult>
+  <bndbox>
+    <xmin>471</xmin>
+    <ymin>461</ymin>
+    <xmax>496</xmax>
+    <ymax>469</ymax>
+  </bndbox>
+</object>
+<object>
+  <name>All PRICE TAGS</name>
+  <difficult>0</difficult>
+  <bndbox>
+    <xmin>459</xmin>
+    <ymin>540</ymin>
+    <xmax>483</xmax>
+    <ymax>548</ymax>
+  </bndbox>
+</object>
+<object>
+  <name>All PRICE TAGS</name>
+  <difficult>0</difficult>
+  <bndbox>
+    <xmin>64</xmin>
+    <ymin>587</ymin>
+    <xmax>88</xmax>
+    <ymax>595</ymax>
+  </bndbox>
+</object>
+<object>
+  <name>All PRICE TAGS</name>
+  <difficult>0</difficult>
+  <bndbox>
+    <xmin>15</xmin>
+    <ymin>519</ymin>
+    <xmax>40</xmax>
+    <ymax>526</ymax>
+  </bndbox>
+</object>
+<object>
+  <name>All PRICE TAGS</name>
+  <difficult>0</difficult>
+  <bndbox>
+    <xmin>18</xmin>
+    <ymin>454</ymin>
+    <xmax>44</xmax>
+    <ymax>463</ymax>
+  </bndbox>
+</object>
+<object>
+  <name>All PRICE TAGS</name>
+  <difficult>0</difficult>
+  <bndbox>
+    <xmin>479</xmin>
+    <ymin>33</ymin>
+    <xmax>499</xmax>
+    <ymax>44</ymax>
+  </bndbox>
+</object>
+<object>
+  <name>All PRICE TAGS</name>
+  <difficult>0</difficult>
+  <bndbox>
+    <xmin>33</xmin>
+    <ymin>53</ymin>
+    <xmax>62</xmax>
+    <ymax>62</ymax>
+  </bndbox>
+</object>
+<object>
+  <name>All PRICE TAGS</name>
+  <difficult>0</difficult>
+  <bndbox>
+    <xmin>106</xmin>
+    <ymin>53</ymin>
+    <xmax>136</xmax>
+    <ymax>62</ymax>
+  </bndbox>
+</object>
+<object>
+  <name>All PRICE TAGS</name>
+  <difficult>0</difficult>
+  <bndbox>
+    <xmin>185</xmin>
+    <ymin>53</ymin>
+    <xmax>215</xmax>
+    <ymax>62</ymax>
+  </bndbox>
+</object>
+<object>
+  <name>All PRICE TAGS</name>
+  <difficult>0</difficult>
+  <bndbox>
+    <xmin>256</xmin>
+    <ymin>53</ymin>
+    <xmax>286</xmax>
+    <ymax>62</ymax>
+  </bndbox>
+</object>
+<object>
+  <name>All PRICE TAGS</name>
+  <difficult>0</difficult>
+  <bndbox>
+    <xmin>334</xmin>
+    <ymin>52</ymin>
+    <xmax>364</xmax>
+    <ymax>61</ymax>
+  </bndbox>
+</object>
+<object>
+  <name>All PRICE TAGS</name>
+  <difficult>0</difficult>
+  <bndbox>
+    <xmin>399</xmin>
+    <ymin>52</ymin>
+    <xmax>429</xmax>
+    <ymax>61</ymax>
+  </bndbox>
+</object>
+<object>
+  <name>All PRICE TAGS</name>
+  <difficult>0</difficult>
+  <bndbox>
+    <xmin>44</xmin>
+    <ymin>150</ymin>
+    <xmax>75</xmax>
+    <ymax>158</ymax>
+  </bndbox>
+</object>
+<object>
+  <name>All PRICE TAGS</name>
+  <difficult>0</difficult>
+  <bndbox>
+    <xmin>122</xmin>
+    <ymin>149</ymin>
+    <xmax>153</xmax>
+    <ymax>157</ymax>
+  </bndbox>
+</object>
+<object>
+  <name>All PRICE TAGS</name>
+  <difficult>0</difficult>
+  <bndbox>
+    <xmin>187</xmin>
+    <ymin>148</ymin>
+    <xmax>217</xmax>
+    <ymax>156</ymax>
+  </bndbox>
+</object>
+<object>
+  <name>All PRICE TAGS</name>
+  <difficult>0</difficult>
+  <bndbox>
+    <xmin>258</xmin>
+    <ymin>147</ymin>
+    <xmax>288</xmax>
+    <ymax>156</ymax>
+  </bndbox>
+</object>
+<object>
+  <name>All PRICE TAGS</name>
+  <difficult>0</difficult>
+  <bndbox>
+    <xmin>326</xmin>
+    <ymin>146</ymin>
+    <xmax>354</xmax>
+    <ymax>155</ymax>
+  </bndbox>
+</object>
+<object>
+  <name>All PRICE TAGS</name>
+  <difficult>0</difficult>
+  <bndbox>
+    <xmin>390</xmin>
+    <ymin>145</ymin>
+    <xmax>418</xmax>
+    <ymax>154</ymax>
+  </bndbox>
+</object>
+<object>
+  <name>All PRICE TAGS</name>
+  <difficult>0</difficult>
+  <bndbox>
+    <xmin>61</xmin>
+    <ymin>238</ymin>
+    <xmax>89</xmax>
+    <ymax>246</ymax>
+  </bndbox>
+</object>
+<object>
+  <name>All PRICE TAGS</name>
+  <difficult>0</difficult>
+  <bndbox>
+    <xmin>141</xmin>
+    <ymin>237</ymin>
+    <xmax>170</xmax>
+    <ymax>245</ymax>
+  </bndbox>
+</object>
+</annotation>
