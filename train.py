@@ -37,6 +37,7 @@ from tool.tv_reference.utils import collate_fn as val_collate
 from tool.tv_reference.coco_utils import convert_to_coco_api
 from tool.tv_reference.coco_eval import CocoEvaluator
 
+torch.cuda.empty_cache()
 
 def bboxes_iou(bboxes_a, bboxes_b, xyxy=True, GIoU=False, DIoU=False, CIoU=False):
     """Calculate the Intersection of Unions (IoUs) between bounding boxes.
@@ -126,13 +127,12 @@ def bboxes_iou(bboxes_a, bboxes_b, xyxy=True, GIoU=False, DIoU=False, CIoU=False
                 return iou - (rho2 / c2 + v * alpha)  # CIoU
     return iou
 
-
 class Yolo_loss(nn.Module):
     def __init__(self, n_classes=80, n_anchors=3, device=None, batch=2):
         super(Yolo_loss, self).__init__()
         self.device = device
         self.strides = [8, 16, 32]
-        image_size = 608
+        image_size = 1024
         self.n_classes = n_classes
         self.n_anchors = n_anchors
 
@@ -192,6 +192,13 @@ class Yolo_loss(nn.Module):
             truth_j = truth_j_all[b, :n]
 
             # calculate iou between truth and reference anchors
+
+            # print("here we go")
+            # print(truth_box.cpu().size())
+            # print(self.ref_anchors[output_id].size())
+
+            # print("here we go")
+
             anchor_ious_all = bboxes_iou(truth_box.cpu(), self.ref_anchors[output_id], CIoU=True)
 
             # temp = bbox_iou(truth_box.cpu(), self.ref_anchors[output_id])
@@ -207,8 +214,16 @@ class Yolo_loss(nn.Module):
 
             truth_box[:n, 0] = truth_x_all[b, :n]
             truth_box[:n, 1] = truth_y_all[b, :n]
+            # print("here we go")
 
-            pred_ious = bboxes_iou(pred[b].view(-1, 4), truth_box, xyxy=False)
+            # print(pred[b].size())
+            # # print(truth_box.size())
+            # # print(pred[b].view(-1, 4).size())
+
+            # print("here we go")
+
+            pred_ious = bboxes_iou(pred[b].reshape(-1, 4), truth_box, xyxy=False)
+
             pred_best_iou, _ = pred_ious.max(dim=1)
             pred_best_iou = (pred_best_iou > self.ignore_thre)
             pred_best_iou = pred_best_iou.view(pred[b].shape[:3])
@@ -246,6 +261,16 @@ class Yolo_loss(nn.Module):
             output[..., np.r_[:2, 4:n_ch]] = torch.sigmoid(output[..., np.r_[:2, 4:n_ch]])
 
             pred = output[..., :4].clone()
+            # print("here we go")
+            # print(pred.size())
+            # print(self.grid_x[output_id].size())
+            # print(self.grid_y[output_id].size())
+
+            # # torch.FloatTensor
+            # # <class 'torch.Tensor'>
+            # # print(self.grid_x[output_id])
+            # print("here we go")
+
             pred[..., 0] += self.grid_x[output_id]
             pred[..., 1] += self.grid_y[output_id]
             pred[..., 2] = torch.exp(pred[..., 2]) * self.anchor_w[output_id]
@@ -448,7 +473,7 @@ def train(model, device, config, epochs=5, batch_size=1, save_cp=True, log_step=
                     pass
                 save_path = os.path.join(config.checkpoints, f'{save_prefix}{epoch + 1}.pth')
                 if isinstance(model, torch.nn.DataParallel):
-                    torch.save(model.moduel,state_dict(), save_path)
+                    torch.save(model.moduel, state_dict(), save_path)
                 else:
                     torch.save(model.state_dict(), save_path)
                 logging.info(f'Checkpoint {epoch + 1} saved !')
@@ -609,8 +634,10 @@ def _get_date_str():
 if __name__ == "__main__":
     logging = init_logger(log_dir='log')
     cfg = get_args(**Cfg)
-    os.environ["CUDA_VISIBLE_DEVICES"] = cfg.gpu
+    # os.environ["CUDA_VISIBLE_DEVICES"] = cfg.gpu
+    # import torch
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+
     logging.info(f'Using device {device}')
 
     if cfg.use_darknet_cfg:

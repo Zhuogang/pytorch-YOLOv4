@@ -19,12 +19,12 @@ _BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 Cfg = EasyDict()
 
 Cfg.use_darknet_cfg = True
-Cfg.cfgfile = os.path.join(_BASE_DIR, 'cfg', 'yolov4.cfg')
+Cfg.cfgfile = os.path.join(_BASE_DIR, 'cfg', 'yolov4-custom.cfg')
 
-Cfg.batch = 4
+Cfg.batch = 1
 Cfg.subdivisions = 1
-Cfg.width = 608
-Cfg.height = 608
+Cfg.width = 1024
+Cfg.height = 1024
 Cfg.channels = 3
 Cfg.momentum = 0.949
 Cfg.decay = 0.0005
@@ -45,7 +45,7 @@ Cfg.mosaic = 1
 
 Cfg.letter_box = 0
 Cfg.jitter = 0.2
-Cfg.classes = 80
+Cfg.classes = 1
 Cfg.track = 0
 Cfg.w = Cfg.width
 Cfg.h = Cfg.height
@@ -53,7 +53,7 @@ Cfg.flip = 1
 Cfg.blur = 0
 Cfg.gaussian = 0
 Cfg.boxes = 60  # box num
-Cfg.TRAIN_EPOCHS = 300
+Cfg.TRAIN_EPOCHS = 20
 # print(_BASE_DIR)
 Cfg.train_label = os.path.join(_BASE_DIR, 'custom_data', 'train.txt')
 Cfg.val_label = os.path.join(_BASE_DIR, 'custom_data' ,'val.txt')
