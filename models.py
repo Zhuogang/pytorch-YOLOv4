@@ -495,7 +495,7 @@ if __name__ == "__main__":
 
     for i in range(2):  # This 'for' loop is for speed check
                         # Because the first iteration is usually longer
-        boxes = do_detect(model, sized, 0.2, 0.6, use_cuda)
+        boxes = do_detect(model, sized, 0.1, 0.6, use_cuda)
 
     if namesfile == None:
         if n_classes == 20:
@@ -507,6 +507,6 @@ if __name__ == "__main__":
 
     class_names = load_class_names(namesfile)
 
-    print(len(boxes))
-    print(boxes)
+    # print(len(boxes))
+    # print(boxes)
     plot_boxes_cv2(img, boxes[0], 'predictions.jpg', class_names)
