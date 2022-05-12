@@ -449,8 +449,8 @@ if __name__ == "__main__":
     random.seed(2020)
     np.random.seed(2020)
     # Cfg.dataset_dir = '/mnt/e/Dataset'
-    print("here we go")
-    print(Cfg.train_label)
+    # print("here we go")
+    # print(Cfg.train_label)
     dataset = Yolo_dataset(Cfg.train_label, Cfg)
     print(Cfg.train_label)
     for i in range(100):
