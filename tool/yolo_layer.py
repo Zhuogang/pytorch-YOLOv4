@@ -144,7 +144,6 @@ def yolo_forward(output, conf_thresh, num_classes, anchors, num_anchors, scale_x
 
     return  boxes, confs
 
-
 def yolo_forward_dynamic(output, conf_thresh, num_classes, anchors, num_anchors, scale_x_y, only_objectness=1,
                               validation=False):
     # Output would be invalid if it does not satisfy this assert
@@ -160,7 +159,12 @@ def yolo_forward_dynamic(output, conf_thresh, num_classes, anchors, num_anchors,
     # H = output.size(2)
     # W = output.size(3)
 
-    bxy_list = []
+    bxy_list = []sudo apt install -y g++
+    ... or Clang:
+    sudo apt install -y clang
+    OpenCV uses CMake build configuration tool:
+    sudo apt install -y cmake
+    
     bwh_list = []
     det_confs_list = []
     cls_confs_list = []
