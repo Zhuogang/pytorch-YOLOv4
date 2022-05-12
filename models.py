@@ -495,7 +495,7 @@ if __name__ == "__main__":
 
     for i in range(2):  # This 'for' loop is for speed check
                         # Because the first iteration is usually longer
-        boxes = do_detect(model, sized, 0.1, 0.6, use_cuda)
+        boxes = do_detect(model, sized, 0.2, 0.6, use_cuda)
 
     if namesfile == None:
         if n_classes == 20:

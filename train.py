@@ -436,6 +436,8 @@ def train(model, device, config, epochs=5, batch_size=1, save_cp=True, log_step=
                                           scheduler.get_lr()[0] * config.batch))
 
                 pbar.update(images.shape[0])
+            
+            print("The epoch loss is {}".format(epoch_loss))
 
             if cfg.use_darknet_cfg:
                 eval_model = Darknet(cfg.cfgfile, inference=True)
